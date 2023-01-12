@@ -15,15 +15,15 @@ public class Main{
         System.out.println(ans_2);
         System.out.println(ans_3);
     }
-    static class Product{
-      public static int product  (int x, int y){
-          return x*y;
-      }
-      public static int product (int x, int y, int z){
-          return x*y*z;
-      }
-      public static double product (double x, double y){
-          return x*y;
-      }
+}
+    class Product{
+    public static int product  (int x, int y){
+        return x*y;
+    }
+    public static int product (int x, int y, int z){
+        return x*y*z;
+    }
+    public static double product (double x, double y){
+        return x*y;
     }
 }
